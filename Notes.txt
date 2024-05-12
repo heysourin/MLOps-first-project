@@ -1,0 +1,20 @@
+*********************************Steps of MLOps:*********************************
+1. Data 
+    i. Data pipeline
+
+2. EDA
+
+3. Pre processing
+
+4. Model
+
+5. Model evaluation
+
+------------------------
+
+6. Deploy
+
+7. Monitoring
+
+8. Re-training
+
