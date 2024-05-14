@@ -18,3 +18,20 @@
 
 8. Re-training
 
+******************************************************DAY 3******************************************************
+- We are going to create python package.
+    * What is a package?
+        package --> folder --> multiple files--> 
+
+    * package --> github
+
+    
+---------------------------------------------------------------------
+*********************************Architechture:*********************************
+1. Intro
+2. structure
+3. python package --> pypi
+4. Setup.py
+5. setup.cgf
+6. pyproject.toml
+7. tox.ini
