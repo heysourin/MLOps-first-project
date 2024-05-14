@@ -25,9 +25,9 @@
 
     * package --> github
 
-    
----------------------------------------------------------------------
-*********************************Architechture:*********************************
+    ---------------------------------------------------------------------
+                            Architechture:
+    ---------------------------------------------------------------------
 1. Intro
 2. structure
 3. python package --> pypi
@@ -35,3 +35,23 @@
 5. setup.cgf
 6. pyproject.toml
 7. tox.ini
+
+steps:
+    1.write requirements.txt and requirements_dev.txt files
+    2. 'setup.py' contains all the details related to the package
+    3. 'setup.cfg': contains details about license and all
+    4. 'tox.ini': requires for github action CI testing
+        a. Cretes environment
+        b. install dependencies
+        c. runs the commands
+        d. 'flake8 src --count --select=E9,F63,F7,F82 --show-source --statistics'
+                - E9,F63,F7,F82 ---> PEP Protocol
+        e. created '.tox' files
+    5. 'pyproject.toml': using for the configuring the python project,
+            it is an alternative to 'setup.cfg'
+
+        You can use either pyproject.toml or setup.cfg, or you can use both.
+        Both does the same thing.
+
+    6. Set up pypi secret key and put it inside 
+        repo settings --> secrets and variables --> Repo secrets
